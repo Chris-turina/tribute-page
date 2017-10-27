@@ -50,7 +50,8 @@
   text-align: center; }
   .link:hover {
     background-color: #4DFF00;
-    color: #245998; }
+    color: #245998;
+    cursor: pointer; }
 
 .view_port {
   background-color: black;
