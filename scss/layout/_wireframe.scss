@@ -1,6 +1,7 @@
 .left-column {
-  background-color: black;
+  // color: $action_green-color;
   color: white;
+  background-color: rgba(0, 0, 0, .5);
 }
 
 .right-column {
@@ -9,10 +10,11 @@
 }
 
 .row{
-  background-color: black;
+  background: rgba(0, 20, 51, .8);
+  // background-color: black;
 }
 .footer {
-  background-color: black;
+  background-color: $college_navy-color;
 }
 
 .card {
