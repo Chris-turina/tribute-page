@@ -44,6 +44,9 @@
   background-color: #001433;
   color: #fff;
   opacity: .8; }
+  @media (min-width: 768px) and (max-width: 1099px) {
+    .fixed-header {
+      max-width: 768px; } }
 
 .link {
   width: 10%;

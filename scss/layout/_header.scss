@@ -13,6 +13,10 @@
   background-color: $college_navy-color;
   color: #fff;
   opacity: .8;
+
+  @media #{$tablet} {
+    max-width: 768px;
+  }
 }
 
 .link {
