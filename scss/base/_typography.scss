@@ -1,10 +1,12 @@
 body {
   width: 100%;
+
 }
 
 .card {
   margin: 5px;
   padding: 10px;
+  border-bottom: 1px solid $action_green-color;
 }
 
 .card-title {
@@ -36,6 +38,10 @@ body {
   border-bottom: 1px solid $action_green-color;
   margin-top: 2px;
   padding-top: 0px;
+  color: $wolf_gray-color;
+  text-shadow: 1px 1px  $action_green-color;
+
+
 }
 
 .title2 {
@@ -44,6 +50,11 @@ body {
   padding-top: 0px;
   padding-bottom: 0px;
   margin-bottom: 0px;
+
+  @media #{$tablet} {
+    font-size: 20px;
+  }
+
 }
 
 .date {
@@ -82,6 +93,11 @@ body {
   display: flex;
   align-items: center;
   margin-right: 15px;
+
+    @media #{$tablet} {
+      height: 65px;
+      width: 65px;
+    }
 }
 
 .city {
@@ -96,6 +112,10 @@ body {
   margin-top: 0px;
   padding-bottom: 0px;
   margin-bottom: 0px;
+
+  @media #{$tablet} {
+    font-size: 15px;
+  }
 }
 
 .team-score {
@@ -103,6 +123,10 @@ body {
   justify-content: space-around;
   font-size: 40px;
   font-weight: bold;
+
+  @media #{$tablet} {
+    font-size: 30px;
+  }
 }
 
 .score {

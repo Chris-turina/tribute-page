@@ -52,12 +52,37 @@
     background-color: #4DFF00;
     color: #245998; }
 
+.view_port {
+  background-color: black;
+  height: 25px;
+  width: 100%;
+  overflow: hidden; }
+
+.polling_message {
+  color: white;
+  float: left;
+  margin-right: 2%; }
+
+.cylon_eye {
+  background-color: #4DFF00;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9) 25%, rgba(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, 0.9) 75%);
+  color: white;
+  height: 100%;
+  width: 20%;
+  animation: 4s linear 0s infinite alternate move_eye; }
+
+@keyframes move_eye {
+  from {
+    margin-left: -20%; }
+  to {
+    margin-left: 100%; } }
 body {
   width: 100%; }
 
 .card {
   margin: 5px;
-  padding: 10px; }
+  padding: 10px;
+  border-bottom: 1px solid #4DFF00; }
 
 .card-title {
   font-size: 20px; }
@@ -82,7 +107,9 @@ body {
   text-align: center;
   border-bottom: 1px solid #4DFF00;
   margin-top: 2px;
-  padding-top: 0px; }
+  padding-top: 0px;
+  color: #A5ACAF;
+  text-shadow: 1px 1px #4DFF00; }
 
 .title2 {
   font-size: 30px;
@@ -90,6 +117,9 @@ body {
   padding-top: 0px;
   padding-bottom: 0px;
   margin-bottom: 0px; }
+  @media (min-width: 768px) and (max-width: 1099px) {
+    .title2 {
+      font-size: 20px; } }
 
 .date {
   margin-top: 0px;
@@ -122,6 +152,10 @@ body {
   display: flex;
   align-items: center;
   margin-right: 15px; }
+  @media (min-width: 768px) and (max-width: 1099px) {
+    .team-logo {
+      height: 65px;
+      width: 65px; } }
 
 .city {
   margin-top: 2px;
@@ -134,12 +168,18 @@ body {
   margin-top: 0px;
   padding-bottom: 0px;
   margin-bottom: 0px; }
+  @media (min-width: 768px) and (max-width: 1099px) {
+    .team-name {
+      font-size: 15px; } }
 
 .team-score {
   display: flex;
   justify-content: space-around;
   font-size: 40px;
   font-weight: bold; }
+  @media (min-width: 768px) and (max-width: 1099px) {
+    .team-score {
+      font-size: 30px; } }
 
 .score {
   border: 1px solid #4DFF00;
@@ -180,11 +220,7 @@ body {
 .row {
   background: rgba(0, 20, 51, 0.8); }
 
-.footer {
-  background-color: #001433; }
-
 .card {
-  border: 1px solid green;
   margin: 5px;
   padding: 10px; }
 
