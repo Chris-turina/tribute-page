@@ -1,3 +1,49 @@
 .container {
   width: 100vw;
 }
+
+.card {
+  margin: 5px;
+  padding: 10px;
+}
+
+.card-title {
+  font-size: 20px;
+}
+
+.right-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  margin: 5px;
+  padding: 10px;
+}
+
+#title {
+
+}
+
+#date {
+
+}
+
+.teams {
+  display: flex;
+  justify-content: space-between;
+}
+
+.team {
+  display: flex;
+}
+
+.team-logo {
+  height: 100px;
+  width: 100px;
+}
+
+.team-score {
+  display: flex;
+  justify-content: space-around;
+}

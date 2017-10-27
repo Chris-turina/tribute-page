@@ -1,3 +1,7 @@
+.header-img {
+    height: 100vh;
+}
+
 .fixed-header {
   width: 100vw;
   display: flex;
@@ -5,8 +9,14 @@
   position: fixed;
   background-color: $college_navy-color;
   color: #fff;
-  opacity: .5;
+  // opacity: .5;
+}
 
+.fixed-header p {
+  &:hover {
+    background-color: white;
+  }
+  // opacity: 2.5;
 }
 
 .header {

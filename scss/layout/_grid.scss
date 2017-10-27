@@ -9,9 +9,9 @@
 }
 
 .left-column {
-  @include grid-column(1, $custom-grid-first);
+  @include grid-column(4, $custom-grid-first);
 }
 
 .right-column {
-  @include grid-column(1, $custom-grid-first);
+  @include grid-column(6, $custom-grid-first);
 }

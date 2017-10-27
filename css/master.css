@@ -12,14 +12,17 @@
   display: block; }
 
 .left-column {
-  width: calc(50% - 60px);
+  width: calc(40% - 56px);
   float: left;
   margin-left: 40px; }
 
 .right-column {
-  width: calc(50% - 60px);
+  width: calc(60% - 64px);
   float: left;
   margin-left: 40px; }
+
+.header-img {
+  height: 100vh; }
 
 .fixed-header {
   width: 100vw;
@@ -27,16 +30,75 @@
   justify-content: space-around;
   position: fixed;
   background-color: #001433;
-  color: #fff;
-  opacity: .5; }
+  color: #fff; }
+
+.fixed-header p:hover {
+  background-color: white; }
+
+.footer {
+  height: 200px;
+  width: 100%;
+  clear: both; }
 
 .container {
   width: 100vw; }
 
+.card {
+  margin: 5px;
+  padding: 10px; }
+
+.card-title {
+  font-size: 20px; }
+
+.right-column {
+  display: flex;
+  flex-direction: column; }
+
+.row {
+  margin: 5px;
+  padding: 10px; }
+
+.teams {
+  display: flex;
+  justify-content: space-between; }
+
+.team {
+  display: flex; }
+
+.team-logo {
+  height: 100px;
+  width: 100px; }
+
+.team-score {
+  display: flex;
+  justify-content: space-around; }
+
 #header-img {
+  width: 100%;
+  height: 100%; }
+
+.card-img {
   width: 100%; }
 
-body {
-  background-color: #000; }
+.logo {
+  width: 100%; }
+
+.left-column {
+  background-color: black;
+  color: white; }
+
+.right-column {
+  color: white; }
+
+.row {
+  background-color: black; }
+
+.footer {
+  background-color: black; }
+
+.card {
+  border: 1px solid green;
+  margin: 5px;
+  padding: 10px; }
 
 /*# sourceMappingURL=master.css.map */
