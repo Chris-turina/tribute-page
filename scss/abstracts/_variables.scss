@@ -7,3 +7,6 @@ $custom-grid-first: (
   columns: 10,
   gutter: 40px,
 );
+
+$tablet: "(min-width: 768px) and (max-width: 1099px)";
+$desktop: "(min-width: 1100px)";
