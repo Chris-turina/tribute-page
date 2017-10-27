@@ -11,6 +11,10 @@ body {
   font-size: 20px;
 }
 
+.left-column {
+  margin-top: 5px;
+}
+
 .left-column h1 {
   text-align: center;
 }
@@ -23,31 +27,86 @@ body {
 .row {
   margin: 5px;
   padding: 10px;
+  color: $wolf_gray-color;
+  text-shadow: 1px 1px  $action_green-color;
 }
 
 .title {
-  color: $action_green-color;
+  text-align: center;
+  border-bottom: 1px solid $action_green-color;
+  margin-top: 2px;
+  padding-top: 0px;
 }
 
-#date {
+.title2 {
+  font-size: 30px;
+  margin-top: 2px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
 
+.date {
+  margin-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 .teams {
+  margin-top: 10px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .team {
   display: flex;
 }
 
+.name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.vs {
+  font-size: 20px;
+  color: white;
+  text-shadow: none;
+}
+
 .team-logo {
   height: 100px;
   width: 100px;
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.city {
+  margin-top: 2px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.team-name{
+  font-size: 20px;
+  margin-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 .team-score {
   display: flex;
   justify-content: space-around;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.score {
+  border: 1px solid $action_green-color;
+  padding: 5px;
+  margin: 5px;
 }
